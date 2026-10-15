@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vishrut Chokshi | Process and Fabrication Engineer</title>
+  <meta name="description" content="Portfolio of Vishrut Chokshi: MS ECE from Michigan Tech with cleanroom fabrication, packaging, and device characterization work.">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Vishrut Chokshi</a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#path">My Path</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#toolbox">Toolbox</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="Vishrut%20Chokshi_Resume.pdf" class="nav-cta">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== OPENING ===================== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Process and Fabrication Engineer | MS ECE | Cleanroom and Device Characterization</p>
+          <h1 id="hero-title">Vishrut Chokshi</h1>
+          <p class="hero-lead">I make devices in the cleanroom, then measure them closely enough to see which process step left its mark.</p>
+          <p class="intro">
+            I recently finished an MS in Electrical and Computer Engineering at Michigan Tech, where most of my lab work was fabricating, packaging, and measuring devices in the university cleanroom.
+            I am looking for Semiconductor Process, Process Integration, and Equipment Engineering roles.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">See My Work</a>
+            <a class="btn btn-secondary" href="Vishrut%20Chokshi_Resume.pdf">Resume (PDF)</a>
+          </div>
+        </div>
+
+        <figure class="hero-figure">
+          <img src="assets/images/nmos-die-wsi2-slag.webp" width="1400" height="1017"
+               alt="Optical microscope view of an NMOS test die on a purple oxide background. Gold contact fingers ring a square region whose central cross-shaped gate area is outlined by irregular, bright residue.">
+          <figcaption>One of my NMOS dies after a 950 °C source and drain diffusion. The bright outlines are WSi<sub>2</sub> slag, one of the clues in <a href="#nmos">chapter 01</a>.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== MY PATH ===================== -->
+    <section class="section path" id="path" aria-labelledby="path-title">
+      <div class="container path-inner">
+        <div class="prose">
+          <p class="eyebrow">My Path</p>
+          <h2 id="path-title">From a Spectrometer Bench to the Cleanroom</h2>
+          <p>
+            My first lab role was an R&amp;D internship at EdgeLabs LLP in 2023. I verified gold nanoparticle size with optical spectroscopy, used those particles in rapid detection kits for four targets, and judged each kit by its test and control lines.
+            It was a small process, but it showed me how much the final result depends on what you check upstream.
+          </p>
+          <p>
+            After a B.Tech in Electronics and Telecommunication Engineering, I came to Michigan Tech for an MS in Electrical and Computer Engineering and a Graduate Certificate in Electronics and Materials Processing.
+            Most of my time there was spent in the university cleanroom: taking NMOS transistors through a full process flow, building and packaging a passive test chip, and then running a directed study on pinholes in thin oxide films.
+          </p>
+          <p>
+            Today I work as a Graduate Research Assistant in that same cleanroom. I write and update SOPs for the tools I used as a student and help the lab manager keep them running.
+            The three chapters below are the projects that shaped how I work.
+          </p>
+        </div>
+
+        <aside class="glance" aria-labelledby="glance-title">
+          <h3 id="glance-title">At a Glance</h3>
+          <dl>
+            <div>
+              <dt>MS, Electrical and Computer Engineering</dt>
+              <dd>Michigan Technological University, Dec 2025</dd>
+            </div>
+            <div>
+              <dt>Graduate Certificate</dt>
+              <dd>Electronics and Materials Processing</dd>
+            </div>
+            <div>
+              <dt>B.Tech, Electronics and Telecommunication Engineering</dt>
+              <dd>Sardar Patel Institute of Technology, May 2023</dd>
+            </div>
+            <div>
+              <dt>Looking For</dt>
+              <dd>Semiconductor Process, Process Integration, and Equipment Engineering roles. Open to relocation.</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== SELECTED WORK ===================== -->
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="work-title">Three Projects, One Thread</h2>
+          <p class="section-lead">Each project picked up where the last one left off: building a device, packaging one, then looking for the defects that can quietly ruin both.</p>
+        </header>
+
+        <ol class="chapter-index">
+          <li><a href="#nmos"><span class="ci-num">01</span><span class="ci-title">Integrated NMOS Transistor Fabrication</span><span class="ci-meta">Fall 2024</span></a></li>
+          <li><a href="#testchip"><span class="ci-num">02</span><span class="ci-title">Test Chip Fabrication, Packaging, and Interposer Design</span><span class="ci-meta">Spring 2025</span></a></li>
+          <li><a href="#pinholes"><span class="ci-num">03</span><span class="ci-title">FE-SEM and EIS Pinhole Screening</span><span class="ci-meta">Fall 2025</span></a></li>
+        </ol>
+
+        <!-- ========== CHAPTER 01 ========== -->
+        <article class="chapter" id="nmos" aria-labelledby="nmos-title">
+          <header class="chapter-head">
+            <span class="chapter-num" aria-hidden="true">01</span>
+            <div>
+              <p class="chapter-meta">Sept to Dec 2024 · Course Project · Michigan Tech Cleanroom</p>
+              <h3 id="nmos-title">Integrated NMOS Transistor Fabrication</h3>
+              <p class="chapter-lead">My first full process flow: bare wafers in, diced NMOS dies out, and a clear list of reasons the devices did not all match.</p>
+            </div>
+          </header>
+
+          <div class="chapter-grid">
+            <div class="prose">
+              <h4>The Flow</h4>
+              <p>
+                Working in an ISO-classified cleanroom, I took wafers through two-step oxidation, photolithography, a WSi<sub>2</sub> gate patterned with RIE, source and drain diffusion, and Cr/Au metallization (50 nm Cr, 200 nm Au), then diced them into 2 mm x 6 mm dies.
+              </p>
+              <p>
+                To see how the junctions responded to thermal budget, I compared two diffusion splits: 950 °C for 30 minutes and 780 °C for 4 hours.
+              </p>
+
+              <h4>What the Measurements Showed</h4>
+              <ul class="stats" aria-label="Gate oxide thickness measurements">
+                <li><span class="stat-value">29.2 nm</span><span class="stat-label">Gate oxide by ellipsometry</span></li>
+                <li><span class="stat-value">36.3 nm</span><span class="stat-label">Same oxide by Filmetrics</span></li>
+                <li><span class="stat-value">30 nm</span><span class="stat-label">Target</span></li>
+              </ul>
+              <p>
+                Two tools disagreeing by 7 nm on the same film meant at least one of them was out of calibration, which made every later thickness number harder to trust.
+                Even so, the electrical data pointed the same way: threshold voltage variation tracked gate oxide thickness.
+              </p>
+              <p>
+                Lithography had its own drift. The UV lamp intensity moved between 9 and 15 mW/cm² around a target dose of about 79 mJ/cm², so exposure was not as repeatable as it looked on paper.
+                At the junctions, incomplete RIE oxide removal before diffusion and WSi<sub>2</sub> slag after the 950 °C, 30 minute diffusion likely affected consistency.
+              </p>
+              <p class="candid">
+                <strong>Being upfront:</strong> the passivation step was not done, and I do not have quantified yield figures for this run.
+              </p>
+            </div>
+
+            <div class="chapter-figures">
+              <figure>
+                <img src="assets/images/nmos-furnace-zones.webp" width="1400" height="772" loading="lazy"
+                     alt="Front panel of a three-zone oxidation furnace with digital controllers reading 1050, 1044, and 1050 degrees Celsius.">
+                <figcaption>Furnace zone controllers during field oxidation.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="takeaways">
+            <h4>What I'd Do Differently</h4>
+            <ul>
+              <li>Calibrate the measurement tools before trusting the numbers they give.</li>
+              <li>Document device geometry during the run. I had to estimate source and drain areas afterward.</li>
+              <li>Hold exposure dose, RIE clearing, and diffusion conditions to tighter limits.</li>
+            </ul>
+          </div>
+
+          <p class="tools"><span>Tools and Techniques:</span> Thermal Oxidation, Diffusion, UV Photolithography, RIE, Cr/Au Metallization, Ellipsometry, Filmetrics, Dicing, Electrical Testing</p>
+        </article>
+
+        <!-- ========== CHAPTER 02 ========== -->
+        <article class="chapter" id="testchip" aria-labelledby="testchip-title">
+          <header class="chapter-head">
+            <span class="chapter-num" aria-hidden="true">02</span>
+            <div>
+              <p class="chapter-meta">Jan to Apr 2025 · Course Project · Team of Four</p>
+              <h3 id="testchip-title">Test Chip Fabrication, Packaging, and Interposer Design</h3>
+              <p class="chapter-lead">A passive test chip taken from bare oxide to a packaged die, plus the PCB interposer meant to carry its signals out to test hardware.</p>
+            </div>
+          </header>
+
+          <p class="part-label">Part One: On the Wafer</p>
+          <div class="chapter-grid">
+            <div class="prose">
+              <p>
+                We sputtered 30 nm of Cr and 300 nm of Au at 100 W RF onto 330 nm of SiO<sub>2</sub>, then patterned about 1.5 µm of SU-8.
+                Rather than guess at the lithography settings, I ran a small DOE across exposure time (12 to 14 s) and development time (35 to 50 s) and compared the results under the microscope.
+              </p>
+              <p>
+                After plasma etching and dicing, we attached dies to QFN72 packages with a 150 °C, 15 minute cure.
+                Throughout, I tuned tool setup and parameters under faculty supervision. I also prepared the wire bonder and updated its SOP, although wedge bonding was not completed within lab time.
+              </p>
+              <ul class="stats" aria-label="Resistor results">
+                <li><span class="stat-value">2</span><span class="stat-label">Serpentine resistors within 1% of their 100 Ω and 120 Ω targets</span></li>
+                <li><span class="stat-value">0</span><span class="stat-label">Usable capacitor measurements</span></li>
+              </ul>
+              <p>
+                I measured the resistor structures on a Keithley parameter analyzer. The other resistors deviated more from their targets, and the capacitors gave no usable results.
+              </p>
+            </div>
+
+            <div class="chapter-figures">
+              <figure>
+                <img src="assets/images/test-chip-qfn72-die-attach.webp" width="627" height="619" loading="lazy"
+                     alt="Top view of a dark silicon test die mounted in the cavity of a QFN72 package, with gold package leads around all four sides and adhesive visible at the die edges.">
+                <figcaption>A test die attached to a QFN72 package.</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/images/test-chip-die-layout.webp" width="682" height="683" loading="lazy"
+                     alt="KLayout layout of the test die showing pink rectangular capacitor pads labeled C1 to C15 and serpentine resistor structures labeled R1 to R8 on a hatched background.">
+                <figcaption>The die layout in KLayout: capacitor structures and serpentine resistors R1 to R8.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <p class="part-label">Part Two: The Interposer</p>
+          <div class="chapter-grid">
+            <div class="prose">
+              <p>
+                To connect the dies to outside test hardware, our team designed a PCB interposer in KLayout and Altium Designer, working within Sunstone Circuits' manufacturing limits.
+                It was a 2-layer, 2 in x 2 in board with 1 oz copper, 6/6 mil trace and space, 30/15 mil vias, and two 500 mil x 500 mil BGA footprints.
+                An isolated ground plane sat under 10 mil signal traces routed with balanced lengths.
+              </p>
+              <p>
+                The boards came back, but assembly did not work. Ground pads had been misread as solder-mask-free areas, some pad and trace sizes were out of tolerance, and die attach failed: the pads were too small to place a die by hand, and they had no self-aligning shape to let solder pull the die into position.
+              </p>
+            </div>
+
+            <div class="chapter-figures">
+              <figure>
+                <img src="assets/images/interposer-altium-render.webp" width="771" height="766" loading="lazy"
+                     alt="Altium 3D render of a green interposer board section. Traces fan out from small die pads in the center to a ring of larger plated through-hole pads at the edges.">
+                <figcaption>Altium rendering of the interposer design.</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/images/interposer-fabricated.webp" width="693" height="520" loading="lazy"
+                     alt="Magnified image of the fabricated interposer shown on a monitor, with silver traces running from a ring of edge pads toward small central pads.">
+                <figcaption>The fabricated board under magnification, used to check pad and trace dimensions.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="takeaways">
+            <h4>What I'd Do Differently</h4>
+            <ul>
+              <li>Run a small DOE on resist exposure and development before committing a full wafer.</li>
+              <li>Check every layout against the vendor's design rules before ordering, not after.</li>
+              <li>Use self-aligning pad designs whenever parts will be placed by hand.</li>
+              <li>Keep SOPs current. A shared tool is much faster to set up when the last person's notes are accurate.</li>
+            </ul>
+          </div>
+
+          <p class="tools"><span>Tools and Techniques:</span> RF PVD Sputtering, SU-8 Photolithography, DOE, Plasma Etching, Wafer Dicing, Die Attach, Wire Bonder, Keithley Parameter Analyzer, KLayout, Altium Designer</p>
+        </article>
+
+        <!-- ========== CHAPTER 03 ========== -->
+        <article class="chapter" id="pinholes" aria-labelledby="pinholes-title">
+          <header class="chapter-head">
+            <span class="chapter-num" aria-hidden="true">03</span>
+            <div>
+              <p class="chapter-meta">Sept to Dec 2025 · Directed Study</p>
+              <h3 id="pinholes-title">FE-SEM and EIS Pinhole Screening</h3>
+              <p class="chapter-lead">An attempt at a faster, non-destructive way to find nanoscale pinholes in sub-35 nm SiO<sub>2</sub> films, by pairing FE-SEM imaging with Electrochemical Impedance Spectroscopy.</p>
+            </div>
+          </header>
+
+          <div class="chapter-grid">
+            <div class="prose">
+              <h4>The Approach</h4>
+              <p>
+                Imaging alone covers a small area at a time, so I wanted an electrical screen that could flag a film before it went under the FE-SEM.
+                After reviewing pinhole characterization methods, I chose EIS for that role.
+              </p>
+              <p>
+                I prepared a bare silicon reference and SiO<sub>2</sub> films at two deposition times. Ellipsometry fits put them at about 11 nm and 33 nm.
+                I diced the wafers into coupons and set up a three-electrode cell on a potentiostat to run impedance sweeps.
+              </p>
+
+              <h4>Where It Ended</h4>
+              <p class="candid">
+                The directed study ended at graduation without final, validated results.
+              </p>
+              <p>
+                The early sweeps did not line up with film thickness: the thicker film looked electrically close to bare silicon.
+                I had not yet confirmed the cause with FE-SEM imaging or repeat runs, so I treat those readings as open questions rather than conclusions.
+              </p>
+            </div>
+
+            <div class="chapter-figures">
+              <figure>
+                <img src="assets/images/eis-three-electrode-cell.webp" width="1126" height="1400" loading="lazy"
+                     alt="Glass beaker of yellow electrolyte holding a white sample fixture, with two electrode rods and clip leads connected to the potentiostat.">
+                <figcaption>The sample fixture submerged in electrolyte, with all three electrodes in the solution.</figcaption>
+              </figure>
+              <figure>
+                <img src="assets/images/eis-nyquist-11nm.webp" width="528" height="540" loading="lazy"
+                     alt="Nyquist plot from the potentiostat software for the thin oxide sample, showing measured points rising from about 2000 to 6000 ohms on the real axis.">
+                <figcaption>A preliminary Nyquist plot for the thin oxide sample (about 11 nm). Not validated.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="takeaways">
+            <h4>What I Took From It</h4>
+            <ul>
+              <li>A thickness measurement alone does not tell you whether a dielectric film is intact.</li>
+              <li>EIS gives an area-averaged signal, so it needs imaging alongside it to locate and confirm defects.</li>
+            </ul>
+          </div>
+
+          <p class="tools"><span>Tools and Techniques:</span> EIS, ThermoFisher Apreo2 FE-SEM, Ellipsometry, Dicing</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Where I Work Now, and Where I Started</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <p class="timeline-date">Feb 2026 to Present</p>
+            <h3>Graduate Research Assistant</h3>
+            <p class="timeline-org">Michigan Technological University, Houghton, MI</p>
+            <p>
+              I started on cleanroom research in Sept 2025 and was formally appointed in Feb 2026.
+              I author and update SOPs for three cleanroom tools: the TRION RIE etcher, the Filmetrics 3D profilometer, and the EV620 aligner.
+              I also assist the lab manager with tool troubleshooting and preventive maintenance.
+            </p>
+          </li>
+          <li class="timeline-item reveal">
+            <p class="timeline-date">Feb to Jun 2023</p>
+            <h3>Research and Development Intern</h3>
+            <p class="timeline-org">EdgeLabs LLP, Mumbai, India</p>
+            <p>
+              I verified gold nanoparticle size using optical spectroscopy, then used the nanoparticles in rapid detection kits for four targets: syphilis, hepatitis B, dengue, and malaria.
+              I evaluated each kit by inspecting its test and control line response, and reviewed process protocols for a Troponin I kit by analyzing parameter deviations.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== TOOLBOX ===================== -->
+    <section class="section toolbox" id="toolbox" aria-labelledby="toolbox-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Toolbox</p>
+          <h2 id="toolbox-title">What I've Worked With</h2>
+          <p class="section-lead">Every item here came up in the projects and roles above.</p>
+        </header>
+        <div class="skills-grid">
+          <section class="skill-group" aria-labelledby="sk-equip">
+            <h3 id="sk-equip">Equipment</h3>
+            <ul>
+              <li>RF PVD Sputterer</li>
+              <li>TRION RIE Plasma Etcher</li>
+              <li>EV620 Aligner (UV Lithography)</li>
+              <li>Wire Bonder</li>
+              <li>ThermoFisher Apreo2 FE-SEM</li>
+              <li>Keithley Parameter Analyzer</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="sk-char">
+            <h3 id="sk-char">Characterization</h3>
+            <ul>
+              <li>EIS</li>
+              <li>IV / CV</li>
+              <li>SEM / EDS</li>
+              <li>Ellipsometry</li>
+              <li>Four-Point Probe</li>
+              <li>Profilometry</li>
+              <li>Spectroscopy</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="sk-methods">
+            <h3 id="sk-methods">Methods</h3>
+            <ul>
+              <li>DOE</li>
+              <li>SPC</li>
+              <li>DMAIC</li>
+              <li>Root Cause Analysis</li>
+              <li>Failure Analysis</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="sk-soft">
+            <h3 id="sk-soft">Software</h3>
+            <ul>
+              <li>MATLAB</li>
+              <li>Python</li>
+              <li>KLayout</li>
+              <li>Altium Designer</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let's Talk</h2>
+          <p class="contact-lead">I am looking for Semiconductor Process, Process Integration, and Equipment Engineering roles, and I am open to relocation. I am happy to go deeper on any of these projects.</p>
+        </div>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <span class="contact-values">
+              <a href="mailto:vishrut2001@gmail.com">vishrut2001@gmail.com</a>
+              <a href="mailto:vishrut.chokshi524@gmail.com">vishrut.chokshi524@gmail.com</a>
+            </span>
+          </li>
+          <li>
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/vishrut-chokshi24" rel="noopener">linkedin.com/in/vishrut-chokshi24</a>
+          </li>
+          <li>
+            <span class="contact-label">Resume</span>
+            <a href="Vishrut%20Chokshi_Resume.pdf">Vishrut Chokshi_Resume.pdf</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Vishrut Chokshi</p>
+      <p><a href="#top">Back to Top</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
